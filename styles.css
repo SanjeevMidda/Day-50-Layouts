@@ -1,0 +1,189 @@
+* {
+    margin:0px;
+    font-family: Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main{
+    width:1100px;
+    height:600px;
+    border: 2px solid grey;
+    display: flex;
+    border-radius: 10px;
+}
+
+.blockOne, .blockTwo, .blockThree{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin:30px;
+}
+
+.one, .two, .three, .four, .five, .six {
+    flex-grow: 1;
+    margin: 20px;
+    border-radius:10px;
+    border: 1px solid grey;
+}
+
+.circle{
+    width:25px;
+    height:25px;
+    background-color: orange;
+    border-radius: 50%;
+    margin:10px;
+
+}
+
+/* BOX 1 */
+.square{
+    flex-basis: 85%;
+    border-left: 1px solid grey;
+
+}
+
+.circleContainer{
+    flex-basis: 15%;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* BOX 2 */
+.squareTwo{
+    flex-basis: 85%;
+}
+
+.circleContainerTwo{
+    flex-basis: 15%;
+    border-left: 1px solid grey;
+}
+
+.circleTwo{
+    width:25px;
+    height:25px;
+    background-color: orange;
+    border-radius: 50%;
+    margin:10px;
+
+}
+
+.two{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* BOX 3 */
+.three{
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle {
+    flex-basis: 70%;
+}
+
+.circleContainerThree, .circleContainerFour{
+    flex-basis: 15%;
+}
+
+.circleContainerThree{
+    border-right: 1px solid grey;
+}
+
+.circleContainerFour{
+    border-left: 1px solid grey;
+}
+
+/* BOX 4 */
+
+.four{
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    flex-basis: 15%;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom{
+    flex-basis: 85%;
+
+}
+
+.circleFour{
+    width:25px;
+    height:25px;
+    background-color: orange;
+    border-radius: 50%;
+    margin:10px;
+}
+
+/* BOX 5 */
+.five{
+    display: flex;
+}
+
+.first, .second, .third{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.first{
+    border-right: 1px solid grey;
+}
+
+.third{
+    border-left: 1px solid grey;
+}
+
+
+
+/* BOX 6 */
+.six{
+    display: flex;
+    flex-direction: column;
+}
+
+.forth, .fifth, .sixth{
+    flex-grow: 1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.five{
+    flex-basis: 50%;
+}
+
+.six{
+    flex-basis: 50%;
+}
+
+.forth{
+    border-bottom: 1px solid grey;
+}
+
+.sixth{
+    border-top: 1px solid grey;
+}
+
+h3{
+    /* font-size: 50px; */
+    position: absolute;
+    top:780px;
+    left:170px;
+    /* left:210px; */
+    /* color: grey; */
+}
